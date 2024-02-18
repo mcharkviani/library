@@ -1,0 +1,21 @@
+{
+  "moduleFileExtensions": ["js", "json", "ts"],
+  "rootDir": "..",
+  "testEnvironment": "node",
+  "testRegex": ".e2e-spec.ts$",
+  "transform": {
+    "^.+\\.(t|j)s$": "ts-jest"
+  },
+  "coverageDirectory": "./test/coverage",
+  "testPathIgnorePatterns": [
+    "/node_modules/",
+    "dist"
+  ],
+  "coveragePathIgnorePatterns": [
+    "/node_modules/",
+    "dist",
+    "/src/main.ts",
+    "/src/migrations/",
+    "/src/common/config/ormconfig.ts"
+  ]
+}
